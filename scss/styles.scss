@@ -474,6 +474,12 @@ footer {
     p {
         color: $text;
     }
+    
+    .tech-stack {
+      color: $base-color;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
 }
 
 #experience-timeline {
@@ -536,12 +542,6 @@ footer {
     }
     
     ul {
-      margin-bottom: 20px;
-    }
-    
-    .tech-stack {
-      color: $base-color;
-      font-size: 13px;
       margin-bottom: 20px;
     }
 }
