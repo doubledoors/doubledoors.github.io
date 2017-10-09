@@ -296,7 +296,7 @@ footer {
     &:after {
         position: absolute;
         content: '';
-        top: 100%;
+        top: 120%;
         height: 1px;
         width: 50px;
         left: 0;
@@ -1001,6 +1001,12 @@ footer {
             float: none;
         }
     }
+    
+    .vtimeline-content {
+        ul {
+          padding-left: 20px;
+        }
+    }
 
     .project-image {
         display: none;
@@ -1046,4 +1052,5 @@ footer {
         }
     }
 
+    
 }
