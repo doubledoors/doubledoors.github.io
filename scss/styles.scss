@@ -276,6 +276,16 @@ footer {
         background: #fff;
         text-decoration: none;
     }
+    
+    &.blue {
+        color: $base-color;
+        border: 3px solid $base-color;
+        
+        &:hover {
+            color: #fff;
+            background-color: $base-color-hover;
+        }
+    }
 }
 
 .shadow {
