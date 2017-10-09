@@ -263,7 +263,7 @@ footer {
     }
 }
 
-.btn-rounded-white {
+.btn-rounded {
     display: inline-block;
     color: #fff;
     padding: 15px 25px;
@@ -277,9 +277,10 @@ footer {
         text-decoration: none;
     }
     
-    &.blue {
+    &.btn-rounded--alt {
         color: $base-color;
         border: 3px solid $base-color;
+        background-color: #fff;
         
         &:hover {
             color: #fff;
