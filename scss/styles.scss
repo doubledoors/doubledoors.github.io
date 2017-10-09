@@ -280,12 +280,17 @@ footer {
     &.btn-rounded--alt {
         color: $base-color;
         border: 3px solid $base-color;
-        background-color: #fff;
         
         &:hover {
             color: #fff;
             background-color: $base-color-hover;
         }
+    }
+    
+    &.btn-rounded--small {
+        padding: 10px 20px;
+        font-size: 14px;
+        border-width: 1px;
     }
 }
 
@@ -371,6 +376,14 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 0 15px 0;
+        @include transition();
+    }
 
     h1, h2 {
         margin: 0;
@@ -990,6 +1003,11 @@ footer {
     }
 
     #lead-content {
+        img {
+            width: 100px;
+            height: 100px;
+        }
+      
         h1 {
             font-size: 2em;
         }
